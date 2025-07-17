@@ -1,0 +1,34 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Dungeons & Dragons AI Assistant"
+  description: "A web-based AI assistant for Dungeons & Dragons"
+  navbar:
+    left:
+      - href: index.qmd
+        text: '<i class="bi bi-house"></i> Home'
+      - href: Resume.qmd
+        text: '<i class="bi bi-newspaper"></i> TBD 1'
+      - href: blog.qmd
+        text: '<i class="bi bi-pencil"></i> TBD 2'
+      - text: "Spotify Group Project"   # NUEVO botón "Spotify Project"
+        icon: spotify            # Ícono de Spotify (Bootstrap Icons)
+        href: https://rsm-aburda.github.io/MGTA-452-Final-Project/index.html   # Enlace al proyecto de Spotify
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    css: styles.css
+    toc: true
+    includes:
+      in-header: bootstrap-icons.html
+    # code-overflow: wrap   # fuerza el ‹wrap› en TODO el HTML
+    code-width: 80  # 80 caracteres antes de envolver
+
+format-options:
+  editor:
+    format-on-save: false
