@@ -9,13 +9,10 @@ website:
     left:
       - href: index.qmd
         text: '<i class="bi bi-house"></i> Home'
-      - href: Resume.qmd
+      - href: TBD 1.qmd
         text: '<i class="bi bi-newspaper"></i> TBD 1'
-      - href: blog.qmd
+      - href: TBD 2.qmd
         text: '<i class="bi bi-pencil"></i> TBD 2'
-      - text: "Spotify Group Project"   # NUEVO botón "Spotify Project"
-        icon: spotify            # Ícono de Spotify (Bootstrap Icons)
-        href: https://rsm-aburda.github.io/MGTA-452-Final-Project/index.html   # Enlace al proyecto de Spotify
 
 format:
   html:
